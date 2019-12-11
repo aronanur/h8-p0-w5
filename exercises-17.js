@@ -7,8 +7,6 @@ function kaliTerusRekursif(angka) {
     tempNumber *= Number(numToString[i])
   }
 
-  console.log(tempNumber)
-
   //base case  
   if(String(tempNumber).length === 1){
     return tempNumber
