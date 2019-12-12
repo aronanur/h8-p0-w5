@@ -75,7 +75,7 @@ function changeVocals (str) {
   
   function passwordGenerator (name) {
 
-    if(name.length <= 5){
+    if(name.length < 5){
         return 'Minimal karakter yang diinputkan adalah 5 karakter'
     }
 
